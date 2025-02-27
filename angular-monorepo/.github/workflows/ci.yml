@@ -5,10 +5,13 @@ on:
     branches:
       - master
       - main
+      - nx-workflow
   pull_request:
     branches:
+      - master
       - main
       - nx-workflow
+
 permissions:
   actions: read
   contents: read
